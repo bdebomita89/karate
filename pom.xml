@@ -54,6 +54,7 @@
         <module>karate-robot</module>        
         <module>karate-e2e-tests</module>
         <module>karate-archetype</module>
+        <module>examples/infosys-crud-tests</module>
     </modules>
 
     <build>       
