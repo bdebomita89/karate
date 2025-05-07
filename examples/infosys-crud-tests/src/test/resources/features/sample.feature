@@ -43,14 +43,6 @@ Feature: Crud operation
 
     # Step 4: Delete the record created in database
     Given url 'https://api.escuelajs.co/api/v1/products/' + productId
-    And request
-    """
-    {
-      "title": "Change Title",
-      "price": 249
-
-    }
-    """
     When method delete
     Then status 200
     * match response contains 'true'
